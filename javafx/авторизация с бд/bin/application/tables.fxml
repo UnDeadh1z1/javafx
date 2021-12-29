@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.tablesController">
+   <children>
+      <AnchorPane fx:id="enter" layoutY="81.0" prefHeight="319.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Button fx:id="showinvetar" layoutX="147.0" layoutY="80.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="407.0" style="-fx-background-color: #F39C63;" text="Инвентарь">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font></Button>
+            <Button fx:id="showsklady" layoutX="366.0" layoutY="135.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="186.0" style="-fx-background-color: #F39C63;" text="Склады">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font></Button>
+            <Button fx:id="showPersonal" layoutX="147.0" layoutY="135.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="186.0" style="-fx-background-color: #F39C63;" text="Персонал">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font></Button>
+            <Button fx:id="showotchy" layoutX="366.0" layoutY="197.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="186.0" style="-fx-background-color: #F39C63;" text="Отчёты по поставкам">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font></Button>
+            <Button fx:id="showhistory" layoutX="146.0" layoutY="197.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="186.0" style="-fx-background-color: #F39C63;" text="История действий">
+               <font>
+                  <Font name="Times New Roman" size="16.0" />
+               </font></Button>
+            <ImageView fitHeight="154.0" fitWidth="141.0" layoutX="559.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../istockphoto-518854697-1024x1024.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label layoutX="236.0" layoutY="20.0" text="Меню таблиц" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman" size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="goback" layoutX="569.0" layoutY="14.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="124.0" style="-fx-background-color: #F39C63;" text="Назад">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
